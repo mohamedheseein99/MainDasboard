@@ -6,6 +6,7 @@ A front-end dashboard project built with HTML, CSS, and JavaScript.
 
 [View Dashboard](https://mohamedheseein99.github.io/MainDasboard/)
 
+![Dashboard Preview](assets/img/dashboard-preview.png)
 ## About The Project
 
 This project focuses on building a dashboard user interface with a clear layout and organized visual structure. It demonstrates practical front-end development skills and the use of core web technologies to create a web interface.
