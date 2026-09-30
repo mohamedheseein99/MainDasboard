@@ -433,7 +433,7 @@ ul {
 }
 
 @keyframes change {
-    form {
+    from {
         background-color: var(--blue);
     }
 
@@ -1456,7 +1456,6 @@ ul {
 
     .raber,
     .page-S,
-    .page-P,
     .page-C,
     .page-F,
     .page-P {
