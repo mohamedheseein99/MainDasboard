@@ -1551,3 +1551,33 @@ ul {
         align-items: normal;
     }
 }
+
+/* Mobile improvements */
+@media (max-width: 480px) {
+    .raber,
+    .page-S,
+    .page-P,
+    .page-C,
+    .page-F {
+        grid-template-columns: minmax(0, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .page-L .files {
+        width: 100%;
+        min-width: 0;
+        height: auto;
+    }
+
+    .content {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        min-width: 0;
+    }
+}
+
+/* Visible keyboard focus */
+:focus-visible {
+    outline: 2px solid var(--blue);
+    outline-offset: 3px;
+}
